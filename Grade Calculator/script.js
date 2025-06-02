@@ -1,7 +1,7 @@
 function showGradeInputs() {
     const count = parseInt(document.getElementById("gradeCount").value);
     const container = document.getElementById("gradeInputs");
-    container.innerHTML = ""; // Clear previous inputs
+    container.innerHTML = ""; 
 
     if (isNaN(count) || count <= 0) {
         alert("Please enter a valid number of grades.");
